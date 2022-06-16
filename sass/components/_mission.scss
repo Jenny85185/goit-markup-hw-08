@@ -1,0 +1,56 @@
+.mission {
+  @media screen and (min-width: 320px) and (max-width: 1199px) {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+.mission__container {
+  align-items: center;
+}
+
+.mission__our-mission,
+.personal__our-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $nav-color;
+  margin-bottom: 50px;
+}
+
+.mission__mission-list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.mission__mission-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  content: '';
+  margin-right: 30px;
+}
+
+.mission__mission-item:last-child {
+  margin-right: 0;
+}
+
+.mission__mission-text {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: $light-color;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}

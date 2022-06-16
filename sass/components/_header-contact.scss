@@ -1,0 +1,39 @@
+.contact {
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    visibility: hidden;
+    display: none;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    display: flex;
+  }
+}
+.contact__item:not(:last-child){
+    @media screen and (min-width: 768px) and (max-width:1199px) {
+        margin-bottom: 10px; 
+        }
+
+}
+.contact__link {
+  display: flex;
+  color: $text-color;
+  transition: color $duration $timing-function;
+
+  &:hover,
+  &:focus {
+    color: $hover-color;
+  }
+}
+
+.contact__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
