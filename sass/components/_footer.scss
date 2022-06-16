@@ -8,7 +8,7 @@
   align-items: baseline;
   justify-content: space-between;
 
-@media screen and (min-width: 768px)and (max-width:1199px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     display: flex;
     flex-wrap: wrap;
   }
@@ -20,10 +20,9 @@
 .footer-adress {
   margin-top: 20px;
 
-  @media screen and (min-width: 768px) and (max-width:1199px) {
-      width: 223px;
-    }
- 
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 223px;
+  }
 }
 
 .footer-adress__mailPhone {
@@ -37,10 +36,9 @@
 .footer-adress__item:not(:last-child) {
   margin-bottom: 9px;
 
-  @media screen and (min-width: 480px)and (max-width:1199px) {
-      margin-bottom: 8px;
-    }
-
+  @media screen and (min-width: 320px) and (max-width: 1199px) {
+    margin-bottom: 8px;
+  }
 }
 
 .footer-adress__adress {
@@ -51,19 +49,20 @@
   letter-spacing: 0.03em;
   color: $light-color;
 }
-.logo-adress, .join {
-    @media screen and (min-width: 480px) {
-            margin-bottom: 60px;
-        }
-}
+.logo-adress,
 .join {
-  
-  @media screen and (min-width: 480px) and (max-width: 1199px) {
+  @media screen and (min-width: 320px) and (max-width: 1199px) {
+    margin-bottom: 60px;
+  }
+}
+
+.join {
+  @media screen and (min-width: 320px) and (max-width: 1199px) {
     text-align: center;
     justify-content: center;
   }
   @media screen and (min-width: 768px) {
-      margin-right: 89px;
+    margin-right: 89px;
   }
   @media screen and (min-width: 1200px) {
     margin-left: 70px;
@@ -84,10 +83,9 @@
   display: flex;
   margin-top: 20px;
 
-@media screen and (min-width: 480px) {
-       justify-content: center;
-
-    }
+  @media screen and (min-width: 320px) {
+    justify-content: center;
+  }
 }
 
 .join__item:not(:last-child) {
@@ -115,51 +113,47 @@
 }
 
 .form-send {
-  @media screen and (min-width: 420px) and (max-width:1199px) {
+  @media screen and (min-width: 320px) and (max-width: 1199px) {
     text-align: center;
-    }
- @media screen and (min-width: 768px) and (max-width:1199px) {
-   text-align: center;
-   margin-left: 166px;
- }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    text-align: center;
+    margin-left: 166px;
+  }
 
   @media screen and (min-width: 1200px) {
-      margin-left: 93px;
-    }
- 
+    margin-left: 93px;
+  }
 }
 
 .form-footer {
- 
-
   @media screen and (min-width: 1200px) {
     display: flex;
     flex-direction: row;
-      margin-top: 20px;
+    margin-top: 20px;
   }
 }
 
 .form-footer__email {
- 
   margin-right: 12px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: #2f303a;
   border-radius: 4px;
   padding: 15px 15px;
-@media screen and (min-width: 320px) and (max-width:1199px) {
+  @media screen and (min-width: 320px) and (max-width: 1199px) {
     width: 100%;
     margin-top: 20px;
   }
   @media screen and (min-width: 1200px) {
-      width: 358px;
-    }
+    width: 358px;
+  }
 }
 
 .form-footer__button {
-  @media screen and (min-width: 480px) and (max-width:1199px) {
-      display: inline-flex;
-      margin-top: 20px;
-    }
+  @media screen and (min-width: 320px) and (max-width: 1199px) {
+    display: inline-flex;
+    margin-top: 20px;
+  }
   display: flex;
   width: 200px;
   padding: 10px 10px 10px 29px;
@@ -180,9 +174,9 @@
   &:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
-    @media screen and (min-width: 1200px) {
-      display: flex;
-    }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 }
 
 .form-footer__icon {

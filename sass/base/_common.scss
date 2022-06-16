@@ -8,9 +8,8 @@ body.modal-open {
   overflow: hidden;
 }
 
-
 .section {
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 320px) {
     padding-bottom: 60px;
     padding-top: 60px;
   }

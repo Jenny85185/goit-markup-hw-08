@@ -1,7 +1,7 @@
 .projects {
   display: flex;
   flex-wrap: wrap;
- 
+
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     gap: 30px;
   }
@@ -11,14 +11,13 @@
   }
 }
 .work {
-@media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     width: 354px;
   }
 
   @media screen and (min-width: 320px) {
     width: 100%;
   }
-
 }
 .projects__item {
   width: 100%;
@@ -47,7 +46,6 @@
 .projects__img {
   position: relative;
   overflow: hidden;
-
 }
 
 .projects__overlay {

@@ -5,7 +5,7 @@
 }
 .mobile-menu-btn {
   position: absolute;
-  top:22px;
+  top: 22px;
   right: 35px;
   background-color: transparent;
   border: none;
@@ -72,10 +72,10 @@
   }
 }
 .mobile-menu__list {
-font-weight: 500;
-font-size: 40px;
-line-height: 1.18;
-letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
 }
 
 .mobile-menu__contact-item {
@@ -87,7 +87,7 @@ letter-spacing: 0.02em;
 .mobile-menu__link {
   position: relative;
   color: $nav-color;
-  
+
   &:hover,
   &:focus {
     color: $hover-color;
@@ -97,7 +97,6 @@ letter-spacing: 0.02em;
 .mobile-menu__link.current {
   color: $hover-color;
 }
-
 
 .mobile-menu__tel-link {
   font-weight: 500;
